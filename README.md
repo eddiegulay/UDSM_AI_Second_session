@@ -5,6 +5,7 @@
 
 
 # main class of the project (DOG)
+
 ```python
 class Dog:
 
@@ -146,6 +147,13 @@ print("public Fox Name: ", fox.name)
 ```python
 fox.bark()
 ```
+The documentation includes the class Dog which has a public attribute name and a private attribute __age. It also includes the class methods bark(), get_age(), set_age(), and __str__(). The class Puppy inherits from the Dog class and the Fox class overrides the bark() method from the Dog class.
+
+The code demonstrates creating objects from the Dog, Puppy, and Fox classes, accessing their attributes and methods, and updating the private age attribute using the `set_age
+
+
+
+
 
 # For 🤖 QABot Check the main.py file
 ## Explore the code
